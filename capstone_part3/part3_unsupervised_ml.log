@@ -1,0 +1,44 @@
+2026-10-10 20:30:05,121 | INFO | __main__ | Unsupervised learning notebook has been started.
+2026-10-10 20:33:22,667 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-10 20:33:22,802 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 20:33:22,810 | INFO | __main__ | Cleaned traffic data ha beens loaded. There are 48187 rows and 9 columns.
+2026-10-10 20:34:54,570 | INFO | __main__ | Clustering inputs have been prepared with 48187 records and 4 features.
+2026-10-10 20:43:29,572 | INFO | __main__ | Training K-means with 2 clusters.
+2026-10-10 20:43:33,429 | INFO | __main__ | K-means with 2 clusters has silhouette score 0.3563.
+2026-10-10 20:43:33,430 | INFO | __main__ | Training K-means with 3 clusters.
+2026-10-10 20:43:33,941 | INFO | __main__ | K-means with 3 clusters has silhouette score 0.3350.
+2026-10-10 20:43:33,942 | INFO | __main__ | Training K-means with 4 clusters.
+2026-10-10 20:43:34,617 | INFO | __main__ | K-means with 4 clusters has silhouette score 0.3502.
+2026-10-10 20:43:34,618 | INFO | __main__ | Training K-means with 5 clusters.
+2026-10-10 20:43:35,289 | INFO | __main__ | K-means with 5 clusters has silhouette score 0.3704.
+2026-10-10 20:43:35,291 | INFO | __main__ | Training K-means with 6 clusters.
+2026-10-10 20:43:36,046 | INFO | __main__ | K-means with 6 clusters has silhouette score 0.3670.
+2026-10-10 20:43:36,055 | INFO | __main__ | Selected K-means model with 5 clusters.
+2026-10-10 22:47:51,680 | INFO | __main__ | Unsupervised learning notebook has been started.
+2026-10-10 22:47:51,773 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-10 22:47:51,870 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 22:47:51,880 | INFO | __main__ | Cleaned traffic data ha beens loaded. There are 48187 rows and 9 columns.
+2026-10-10 22:47:51,940 | INFO | __main__ | Clustering inputs have been prepared with 48187 records and 4 features.
+2026-10-10 22:47:53,349 | INFO | __main__ | Training K-means with 2 clusters.
+2026-10-10 22:47:56,539 | INFO | __main__ | K-means with 2 clusters has silhouette score 0.3563.
+2026-10-10 22:47:56,540 | INFO | __main__ | Training K-means with 3 clusters.
+2026-10-10 22:47:56,980 | INFO | __main__ | K-means with 3 clusters has silhouette score 0.3350.
+2026-10-10 22:47:56,981 | INFO | __main__ | Training K-means with 4 clusters.
+2026-10-10 22:47:57,369 | INFO | __main__ | K-means with 4 clusters has silhouette score 0.3502.
+2026-10-10 22:47:57,370 | INFO | __main__ | Training K-means with 5 clusters.
+2026-10-10 22:47:57,771 | INFO | __main__ | K-means with 5 clusters has silhouette score 0.3704.
+2026-10-10 22:47:57,772 | INFO | __main__ | Training K-means with 6 clusters.
+2026-10-10 22:47:58,191 | INFO | __main__ | K-means with 6 clusters has silhouette score 0.3670.
+2026-10-10 22:47:58,194 | INFO | __main__ | Selected K-means model with 5 clusters.
+2026-10-10 22:48:06,128 | INFO | __main__ | Created summaries for 5 clusters.
+2026-10-10 22:51:11,854 | INFO | __main__ | Displayed the traffic cluster plot using 5000 records.
+2026-10-10 22:53:55,481 | INFO | __main__ | Association categories have been prepared for 48187 records.
+2026-10-10 22:56:28,527 | INFO | __main__ | Found 38 association rules meeting the selected thresholds.
+2026-10-10 22:57:51,834 | INFO | __main__ | Prepared explanations for the 5 highest-lift rul es.
+2026-10-10 23:00:34,365 | INFO | __main__ | Saved the clustering model, scaler and settings.
+2026-10-10 23:00:34,375 | INFO | __main__ | Saved Task 2 results to results/cluster_comparison.csv.
+2026-10-10 23:00:34,378 | INFO | __main__ | Saved Task 2 results to results/cluster_summary.csv.
+2026-10-10 23:00:34,381 | INFO | __main__ | Saved Task 2 results to results/association_rules.csv.
+2026-10-10 23:00:34,384 | INFO | __main__ | Saved Task 2 results to results/association_rule_explanations.csv.
+2026-10-10 23:00:34,950 | INFO | __main__ | Saved the traffic cluster chart.
+2026-10-10 23:00:34,990 | INFO | __main__ | The clustering model and scaler passed the reload check.
