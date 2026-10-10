@@ -130,3 +130,15 @@
 2026-10-10 12:17:47,761 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
 2026-10-10 12:17:48,633 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
 2026-10-10 12:17:48,637 | INFO | __main__ | Feature engineering has completed successfully.
+2026-10-10 16:12:58,842 | INFO | __main__ | Chart saved to charts/traffic_by_hour.png.
+2026-10-10 16:14:50,669 | INFO | __main__ | Chart saved to charts/traffic_by_hour.png.
+2026-10-10 16:15:10,765 | INFO | __main__ | Chart is saved to charts/weekday_weekend_traffic.png.
+2026-10-10 16:16:54,804 | INFO | __main__ | Chart is saved to charts/traffic_by_weather.png.
+2026-10-10 16:25:03,541 | INFO | __main__ | Traffic visualisation has started.
+2026-10-10 16:25:03,973 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 16:25:03,973 | INFO | __main__ | Chart data has loaded. There are 48187 rows and 30 columns.
+2026-10-10 16:25:04,438 | INFO | __main__ | Chart is saved to charts/traffic_by_hour.png.
+2026-10-10 16:25:04,671 | INFO | __main__ | Chart is saved to charts/weekday_weekend_traffic.png.
+2026-10-10 16:25:05,034 | INFO | __main__ | Chart is saved to charts/traffic_by_weather.png.
+2026-10-10 16:25:05,034 | INFO | __main__ | All three traffic charts have saved.
+2026-10-10 16:25:05,037 | INFO | __main__ | Traffic visualisation has completed successfully.
