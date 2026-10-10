@@ -1,0 +1,86 @@
+2026-10-10 00:16:31,713 | INFO | __main__ | Logging has been enabled.
+2026-10-10 00:17:48,833 | INFO | __main__ | Raw CSV has been loaded succesfully: 48204 rows and 9 columns.
+2026-10-10 00:19:33,642 | INFO | __main__ | Logging has been enabled.
+2026-10-10 00:19:48,334 | INFO | __main__ | Raw CSV has been loaded succesfully: 48204 rows and 9 columns.
+2026-10-10 00:27:26,453 | INFO | __main__ | Schema check has passed all validations: all required columns are present.
+2026-10-10 00:30:42,372 | INFO | __main__ | holiday: no category changes needed.
+2026-10-10 00:30:42,393 | INFO | __main__ | weather_main: no category changes needed.
+2026-10-10 00:30:42,432 | WARNING | __main__ | weather_description: modified 1730 rows to standardise spaces and capitalisation.
+2026-10-10 00:31:46,601 | INFO | __main__ | holiday: no category changes needed.
+2026-10-10 00:31:46,623 | INFO | __main__ | weather_main: no category changes needed.
+2026-10-10 00:31:46,646 | WARNING | __main__ | weather_description: modified 1730 rows to standardise spaces and capitalisation.
+2026-10-10 00:34:15,887 | INFO | __main__ | Date/time check has passed: no missing or invalid dates.
+2026-10-10 00:34:15,888 | INFO | __main__ | date_time is converted to datetime format.
+2026-10-10 00:36:51,765 | WARNING | __main__ | Dropped 17 rows because all column values were duplicates.
+2026-10-10 00:36:51,766 | INFO | __main__ | Dataset after duplicate removal: 48187 rows and 9 columns.
+2026-10-10 00:39:59,824 | WARNING | __main__ | Fixed 4 missing or invalid temperature readings in month 1 using the monthly median.
+2026-10-10 00:39:59,833 | WARNING | __main__ | Fixed 6 missing or invalid temperature readings in month 2 using the monthly median.
+2026-10-10 00:41:26,760 | WARNING | __main__ | Fixed 1 missing or invalid rainfall readings in month 7 using the monthly median.
+2026-10-10 00:42:19,846 | INFO | __main__ | Missing value check completed.
+2026-10-10 00:42:53,155 | INFO | __main__ | Snow, cloud cover and traffic checks completed.
+2026-10-10 00:43:54,675 | INFO | __main__ | Missing value check completed.
+2026-10-10 00:43:54,705 | INFO | __main__ | Cleaned data checks passed. There are 48187 rows and 9 columns.
+2026-10-10 00:44:56,628 | INFO | __main__ | Cleaned data saved to data/traffic_cleaned.csv.
+2026-10-10 07:21:33,781 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2026-10-10 07:21:33,795 | WARNING | Comm | No such comm: 5b6ea3f5-e39f-416f-b473-34ea6f12c74a
+2026-10-10 08:54:50,753 | INFO | __main__ | Traffic pipeline started.
+2026-10-10 08:54:50,888 | INFO | __main__ | Raw CSV has loaded succesfully. There are 48204 rows and 9 columns.
+2026-10-10 08:54:50,891 | INFO | __main__ | Column check has passed. All required columns are present.
+2026-10-10 08:54:50,946 | INFO | __main__ | holiday: no text changes are required.
+2026-10-10 08:54:50,993 | INFO | __main__ | weather_main: no text changes are required.
+2026-10-10 08:54:51,043 | WARNING | __main__ | weather_description: changed 1730 rows to fix spaces and capital letters.
+2026-10-10 08:54:51,110 | INFO | __main__ | Date check has passed. No missing or invalid dates.
+2026-10-10 08:54:51,111 | INFO | __main__ | date_time is now in datetime format.
+2026-10-10 08:54:51,128 | INFO | __main__ | temp: number conversion finished.
+2026-10-10 08:54:51,130 | INFO | __main__ | rain_1h: number conversion finished.
+2026-10-10 08:54:51,132 | INFO | __main__ | snow_1h: number conversion finished.
+2026-10-10 08:54:51,136 | INFO | __main__ | clouds_all: number conversion finished.
+2026-10-10 08:54:51,138 | INFO | __main__ | traffic_volume: number conversion finished.
+2026-10-10 08:54:51,167 | INFO | __main__ | holiday: no missing category values.
+2026-10-10 08:54:51,183 | INFO | __main__ | weather_main: no missing category values.
+2026-10-10 08:54:51,202 | INFO | __main__ | weather_description: no missing category values.
+2026-10-10 08:54:51,226 | INFO | __main__ | snow_1h: no missing or invalid numbers.
+2026-10-10 08:54:51,229 | INFO | __main__ | clouds_all: no missing or invalid numbers.
+2026-10-10 08:54:51,231 | INFO | __main__ | traffic_volume: no missing or invalid numbers.
+2026-10-10 08:54:51,401 | WARNING | __main__ | Dropped 17 rows because all their values were duplicates.
+2026-10-10 08:54:51,402 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-10 08:54:51,426 | WARNING | __main__ | Fixed 4 missing or invalid temperatures in month 1 using the monthly median.
+2026-10-10 08:54:51,431 | WARNING | __main__ | Fixed 6 missing or invalid temperatures in month 2 using the monthly median.
+2026-10-10 08:54:51,458 | WARNING | __main__ | Fixed 1 missing or invalid rainfall readings in month 7 using the monthly median.
+2026-10-10 08:54:51,590 | INFO | __main__ | Duplicate check finished. No exact duplicates found.
+2026-10-10 08:54:51,590 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-10 08:54:51,759 | INFO | __main__ | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 08:54:52,623 | INFO | __main__ | Cleaned data saved to data/traffic_cleaned.csv.
+2026-10-10 08:54:52,628 | INFO | __main__ | Traffic pipeline completed succesfully.
+2026-10-10 08:58:09,062 | INFO | __main__ | Traffic pipeline started.
+2026-10-10 08:58:09,173 | INFO | __main__ | Raw CSV has loaded succesfully. There are 48204 rows and 9 columns.
+2026-10-10 08:58:09,175 | INFO | __main__ | Column check has passed. All required columns are present.
+2026-10-10 08:58:09,215 | INFO | __main__ | holiday: no text changes are required.
+2026-10-10 08:58:09,263 | INFO | __main__ | weather_main: no text changes are required.
+2026-10-10 08:58:09,296 | WARNING | __main__ | weather_description: changed 1730 rows to fix spaces and capital letters.
+2026-10-10 08:58:09,332 | INFO | __main__ | Date check has passed. No missing or invalid dates.
+2026-10-10 08:58:09,332 | INFO | __main__ | date_time is now in datetime format.
+2026-10-10 08:58:09,342 | INFO | __main__ | temp: number conversion finished.
+2026-10-10 08:58:09,343 | INFO | __main__ | rain_1h: number conversion finished.
+2026-10-10 08:58:09,344 | INFO | __main__ | snow_1h: number conversion finished.
+2026-10-10 08:58:09,347 | INFO | __main__ | clouds_all: number conversion finished.
+2026-10-10 08:58:09,348 | INFO | __main__ | traffic_volume: number conversion finished.
+2026-10-10 08:58:09,367 | INFO | __main__ | holiday: no missing category values.
+2026-10-10 08:58:09,380 | INFO | __main__ | weather_main: no missing category values.
+2026-10-10 08:58:09,388 | INFO | __main__ | weather_description: no missing category values.
+2026-10-10 08:58:09,402 | INFO | __main__ | snow_1h: no missing or invalid numbers.
+2026-10-10 08:58:09,403 | INFO | __main__ | clouds_all: no missing or invalid numbers.
+2026-10-10 08:58:09,404 | INFO | __main__ | traffic_volume: no missing or invalid numbers.
+2026-10-10 08:58:09,492 | WARNING | __main__ | Dropped 17 rows because all their values were duplicates.
+2026-10-10 08:58:09,493 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-10 08:58:09,510 | DEBUG | __main__ | Month 1 temperature median is 266.83 Kelvin.
+2026-10-10 08:58:09,511 | WARNING | __main__ | Fixed 4 missing or invalid temperatures in month 1 using the monthly median.
+2026-10-10 08:58:09,513 | DEBUG | __main__ | Month 2 temperature median is 266.51 Kelvin.
+2026-10-10 08:58:09,515 | WARNING | __main__ | Fixed 6 missing or invalid temperatures in month 2 using the monthly median.
+2026-10-10 08:58:09,537 | DEBUG | __main__ | Month 7 rainfall median is 0.0 mm.
+2026-10-10 08:58:09,538 | WARNING | __main__ | Fixed 1 missing or invalid rainfall readings in month 7 using the monthly median.
+2026-10-10 08:58:09,620 | INFO | __main__ | Duplicate check finished. No exact duplicates found.
+2026-10-10 08:58:09,621 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-10 08:58:09,724 | INFO | __main__ | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 08:58:10,139 | INFO | __main__ | Cleaned data saved to data/traffic_cleaned.csv.
+2026-10-10 08:58:10,141 | INFO | __main__ | Traffic pipeline completed succesfully.
