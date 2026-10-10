@@ -84,3 +84,49 @@
 2026-10-10 08:58:09,724 | INFO | __main__ | Cleaned data checks completed. There are 48187 rows and 9 columns.
 2026-10-10 08:58:10,139 | INFO | __main__ | Cleaned data saved to data/traffic_cleaned.csv.
 2026-10-10 08:58:10,141 | INFO | __main__ | Traffic pipeline completed succesfully.
+2026-10-10 10:28:36,572 | INFO | __main__ | Logging has been enabled.
+2026-10-10 10:30:01,696 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-10 10:30:01,713 | INFO | __main__ | Hour, day of week and weekend features were added.
+2026-10-10 10:31:09,714 | INFO | __main__ | Cyclical hour features were added.
+2026-10-10 10:32:17,733 | INFO | __main__ | Weather encoding, rain and snow features have been      added.
+2026-10-10 10:34:42,612 | INFO | __main__ | temp scaled feature was added.
+2026-10-10 10:34:42,617 | INFO | __main__ | rain_1h scaled feature was added.
+2026-10-10 10:49:11,418 | INFO | __main__ | Data-driven Traffic Categories added.
+2026-10-10 10:51:32,366 | INFO | __main__ | Feature validation checks are complete. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 10:53:08,263 | INFO | __main__ | Feature data has been saved to data/traffic_features.csv.
+2026-10-10 11:58:31,436 | INFO | __main__ | Feature engineering has started.
+2026-10-10 11:58:31,679 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 11:58:31,680 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-10 11:58:31,701 | INFO | __main__ | Time features and cyclical hour features were added.
+2026-10-10 11:58:31,731 | INFO | __main__ | Weather encoding, rain and snow features have been added.
+2026-10-10 11:58:31,749 | INFO | __main__ | temp scaled feature have bee added.
+2026-10-10 11:58:31,751 | INFO | __main__ | rain_1h scaled feature have bee added.
+2026-10-10 11:58:31,772 | INFO | __main__ | Data-driven traffic categories have been added.
+2026-10-10 11:58:31,814 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 11:58:32,686 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
+2026-10-10 11:58:32,690 | INFO | __main__ | Feature engineering has completed successfully.
+2026-10-10 11:59:20,469 | INFO | __main__ | Feature engineering has started.
+2026-10-10 11:59:20,616 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 11:59:20,616 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-10 11:59:20,628 | INFO | __main__ | Time features and cyclical hour features were added.
+2026-10-10 11:59:20,645 | INFO | __main__ | Weather encoding, rain and snow features have been added.
+2026-10-10 11:59:20,654 | DEBUG | __main__ | temp scaling minimum is 243.39 and maximum is 310.07.
+2026-10-10 11:59:20,655 | INFO | __main__ | temp scaled feature have bee added.
+2026-10-10 11:59:20,655 | DEBUG | __main__ | rain_1h scaling minimum is 0.0 and maximum is 55.63.
+2026-10-10 11:59:20,656 | INFO | __main__ | rain_1h scaled feature have bee added.
+2026-10-10 11:59:20,663 | DEBUG | __main__ | Traffic category thresholds are 1192.5 and 4933.0 vehicles.
+2026-10-10 11:59:20,670 | INFO | __main__ | Data-driven traffic categories have been added.
+2026-10-10 11:59:20,701 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 11:59:21,317 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
+2026-10-10 11:59:21,320 | INFO | __main__ | Feature engineering has completed successfully.
+2026-10-10 12:17:47,371 | INFO | __main__ | Feature engineering has started.
+2026-10-10 12:17:47,628 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 12:17:47,628 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-10 12:17:47,649 | INFO | __main__ | Time features and cyclical hour features were added.
+2026-10-10 12:17:47,675 | INFO | __main__ | Weather encoding, rain and snow features have been added.
+2026-10-10 12:17:47,688 | INFO | __main__ | temp scaled feature have bee added.
+2026-10-10 12:17:47,690 | INFO | __main__ | rain_1h scaled feature have bee added.
+2026-10-10 12:17:47,714 | INFO | __main__ | Data-driven traffic categories have been added.
+2026-10-10 12:17:47,761 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 12:17:48,633 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
+2026-10-10 12:17:48,637 | INFO | __main__ | Feature engineering has completed successfully.
