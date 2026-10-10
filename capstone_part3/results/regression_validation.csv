@@ -1,0 +1,3 @@
+model,validation_MAE,validation_R_squared
+Random Forest,317.5692499185647,0.9256419282130413
+Linear Regression,826.1898158382709,0.7157774348697152

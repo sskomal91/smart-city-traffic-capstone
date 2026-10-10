@@ -1,0 +1,56 @@
+2026-10-10 18:49:30,533 | INFO | __main__ | Supervised learning notebook is started.
+2026-10-10 18:49:30,534 | INFO | __main__ | Package versions: NumPy 2.4.6, Pandas 2.3.3, scikit-learn 1.7.2.
+2026-10-10 18:50:31,384 | INFO | __main__ | Raw data has been loaded. There are 48204 rows and 9 columns.
+2026-10-10 18:52:00,681 | INFO | pipeline | holiday: no text changes are required.
+2026-10-10 18:52:00,725 | INFO | pipeline | weather_main: no text changes are required.
+2026-10-10 18:52:00,762 | WARNING | pipeline | weather_description: changed 1730 rows to fix spaces and capital letters.
+2026-10-10 18:52:00,808 | INFO | pipeline | Date check has passed. No missing or invalid dates.
+2026-10-10 18:52:00,809 | INFO | pipeline | date_time is now in datetime format.
+2026-10-10 18:52:00,817 | INFO | pipeline | temp: number conversion finished.
+2026-10-10 18:52:00,819 | INFO | pipeline | rain_1h: number conversion finished.
+2026-10-10 18:52:00,821 | INFO | pipeline | snow_1h: number conversion finished.
+2026-10-10 18:52:00,823 | INFO | pipeline | clouds_all: number conversion finished.
+2026-10-10 18:52:00,825 | INFO | pipeline | traffic_volume: number conversion finished.
+2026-10-10 18:52:00,840 | INFO | pipeline | holiday: no missing category values.
+2026-10-10 18:52:00,849 | INFO | pipeline | weather_main: no missing category values.
+2026-10-10 18:52:00,859 | INFO | pipeline | weather_description: no missing category values.
+2026-10-10 18:52:00,873 | INFO | pipeline | snow_1h: no missing or invalid numbers.
+2026-10-10 18:52:00,876 | INFO | pipeline | clouds_all: no missing or invalid numbers.
+2026-10-10 18:52:00,879 | INFO | pipeline | traffic_volume: no missing or invalid numbers.
+2026-10-10 18:52:00,978 | WARNING | pipeline | Dropped 17 rows because all their values were duplicates.
+2026-10-10 18:52:00,980 | INFO | pipeline | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-10 18:52:00,987 | WARNING | __main__ | temp: marked 10 invalid readings as missing..
+2026-10-10 18:52:00,988 | WARNING | __main__ | rain_1h: marked 1 invalid readings as missing..
+2026-10-10 18:52:00,998 | INFO | __main__ | Data preparation has been completed. There are 48187 rows and 9 columns.
+2026-10-10 18:57:14,310 | INFO | __main__ | Time split has been completed. Training: 35873, validation: 7370, test: 4944 rows.
+2026-10-10 18:58:51,915 | WARNING | __main__ | Training: filled 10 missing temp readings using training medians.
+2026-10-10 18:58:51,925 | WARNING | __main__ | Training: filled 1 missing rain_1h readings using training medians.
+2026-10-10 18:58:51,950 | INFO | __main__ | Imputation has been completed using values calculated from training data only.
+2026-10-10 19:00:25,269 | INFO | __main__ | Time features, cyclical encodings, holiday flag and weather indicators have been added to all three sets.
+2026-10-10 19:01:51,873 | INFO | __main__ | Training proxy labels have been created. High-risk records: 3852 of 35873.
+2026-10-10 19:01:51,884 | INFO | __main__ | Validation proxy labels have been created. High-risk records: 1138 of 7370.
+2026-10-10 19:01:51,928 | INFO | __main__ | Test proxy labels have been created. High-risk records: 476 of 4944.
+2026-10-10 19:21:55,824 | INFO | __main__ | Common model inputs have been prepared with 16 numeric features and 1 categorical feature.
+2026-10-10 19:23:34,968 | INFO | __main__ | Training Linear Regression regression model.
+2026-10-10 19:23:35,461 | INFO | __main__ | Linear Regression validation results: MAE 826.19 and R-squared 0.7158.
+2026-10-10 19:23:35,463 | INFO | __main__ | Training Random Forest regression model.
+2026-10-10 19:23:42,093 | INFO | __main__ | Random Forest validation results: MAE 317.57 and R-squared 0.9256.
+2026-10-10 19:26:06,651 | INFO | __main__ | Training Logistic Regression classification model.
+2026-10-10 19:26:07,033 | INFO | __main__ | Logistic Regression validation results: accuracy 0.9507, precision 0.7645, recall 0.9842, F1 0.8605 and ROC AUC 0.9895.
+2026-10-10 19:26:07,034 | INFO | __main__ | Training Random Forest classification model.
+2026-10-10 19:26:08,000 | INFO | __main__ | Random Forest validation results: accuracy 0.9769, precision 0.9047, recall 0.9508, F1 0.9272 and ROC AUC 0.9932.
+2026-10-10 19:27:28,347 | INFO | __main__ | Selected regression model: Random Forest. Selected classifier: Random Forest.
+2026-10-10 19:27:28,597 | INFO | __main__ | Selected models have been evaluated on the held-out test set.
+2026-10-10 19:28:57,122 | INFO | __main__ | Model has been saved to models/linear_regression_v1.joblib.
+2026-10-10 19:29:00,341 | INFO | __main__ | Model has been saved to models/random_forest_regression_v1.joblib.
+2026-10-10 19:29:00,348 | INFO | __main__ | Model has been saved to models/logistic_regression_v1.joblib.
+2026-10-10 19:29:00,557 | INFO | __main__ | Model has been saved to models/random_forest_classification_v1.joblib.
+2026-10-10 19:29:00,578 | INFO | __main__ | Evaluation results have been saved to results/regression_validation.csv.
+2026-10-10 19:29:00,583 | INFO | __main__ | Evaluation results have been saved to results/classification_validation.csv.
+2026-10-10 19:29:00,586 | INFO | __main__ | Evaluation results have been saved to results/regression_test.csv.
+2026-10-10 19:29:00,591 | INFO | __main__ | Evaluation results have been saved to results/classification_test.csv.
+2026-10-10 19:30:09,498 | INFO | __main__ | Reload check has passed for linear_regression_v1.
+2026-10-10 19:30:10,749 | INFO | __main__ | Reload check has passed for random_forest_regression_v1.
+2026-10-10 19:30:10,810 | INFO | __main__ | Reload check has passed for logistic_regression_v1.
+2026-10-10 19:30:11,055 | INFO | __main__ | Reload check has passed for random_forest_classification_v1.
+2026-10-10 19:30:11,070 | INFO | __main__ | All saved models and preparation settings have passed reload checks.
