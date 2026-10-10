@@ -142,3 +142,33 @@
 2026-10-10 16:25:05,034 | INFO | __main__ | Chart is saved to charts/traffic_by_weather.png.
 2026-10-10 16:25:05,034 | INFO | __main__ | All three traffic charts have saved.
 2026-10-10 16:25:05,037 | INFO | __main__ | Traffic visualisation has completed successfully.
+2026-10-10 17:02:16,858 | INFO | __main__ | Application is invoked with arguments ['compare-days'].
+2026-10-10 17:02:16,860 | INFO | __main__ | Command compare-days is invoked with arguments {'debug': False, 'command': 'compare-days'}.
+2026-10-10 17:02:17,085 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-10 17:02:17,235 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-10 17:02:17,288 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 17:02:17,288 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-10 17:02:17,300 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-10 17:02:51,744 | INFO | __main__ | Application is invoked with arguments ['query', '--datetime', '2012-10-02 09:00:00'].
+2026-10-10 17:02:51,746 | INFO | __main__ | Command query is invoked with arguments {'debug': False, 'command': 'query', 'datetime': '2012-10-02 09:00:00'}.
+2026-10-10 17:02:51,919 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-10 17:02:52,041 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-10 17:02:52,069 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 17:02:52,069 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-10 17:02:52,086 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-10 17:04:28,898 | INFO | __main__ | Application is invoked with arguments ['high-traffic', '--threshold', '7000'].
+2026-10-10 17:04:28,900 | INFO | __main__ | Command high-traffic is invoked with arguments {'debug': False, 'command': 'high-traffic', 'threshold': 7000}.
+2026-10-10 17:04:29,064 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-10 17:04:29,201 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-10 17:04:29,229 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 17:04:29,229 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-10 17:04:29,238 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-10 17:05:02,106 | INFO | __main__ | Application is invoked with arguments ['query', '--datetime', 'invalid-date'].
+2026-10-10 17:05:02,108 | INFO | __main__ | Command query is invoked with arguments {'debug': False, 'command': 'query', 'datetime': 'invalid-date'}.
+2026-10-10 17:05:02,330 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-10 17:05:02,465 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-10 17:05:02,504 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 17:05:02,505 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-10 17:05:02,505 | ERROR | __main__ | Traffic application could not complete: Use a valid date and time in YYYY-MM-DD HH:MM:SS format..
+2026-10-10 17:06:15,249 | INFO | __main__ | Application is invoked with arguments ['high-traffic', '--threshold', 'abc'].
+2026-10-10 17:06:15,252 | ERROR | __main__ | Traffic application could not complete: Invalid command arguments: argument --threshold: invalid int value: 'abc'..
