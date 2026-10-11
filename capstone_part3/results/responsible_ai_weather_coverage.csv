@@ -1,0 +1,12 @@
+weather,test_records,evidence
+Clear,1363,At least 100 records
+Clouds,1272,At least 100 records
+Drizzle,237,At least 100 records
+Fog,112,At least 100 records
+Haze,115,At least 100 records
+Mist,622,At least 100 records
+Rain,916,At least 100 records
+Smoke,2,Limited sample
+Snow,47,Limited sample
+Squall,0,No test records
+Thunderstorm,258,At least 100 records
