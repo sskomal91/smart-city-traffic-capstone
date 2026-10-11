@@ -1,0 +1,2 @@
+date_time,actual_traffic_volume,random_forest_prediction,SHAP_baseline,sum_of_contributions
+2018-04-18 15:00:00,5835,5801.594386882323,3244.993714214032,2556.6006726682817
