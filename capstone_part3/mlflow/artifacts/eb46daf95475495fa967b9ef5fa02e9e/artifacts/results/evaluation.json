@@ -1,0 +1,10 @@
+{
+  "model": "Random Forest",
+  "metrics": {
+    "validation_MAE": 317.5692499185647,
+    "validation_R_squared": 0.9256419282130413,
+    "test_MAE": 250.835794640864,
+    "test_R_squared": 0.9447586043470722
+  },
+  "record_type": "existing_evaluation"
+}

@@ -1,0 +1,10 @@
+{
+  "model": "Neural Network",
+  "metrics": {
+    "validation_MAE": 316.4414367675781,
+    "validation_R_squared": 0.9306917786598206,
+    "test_MAE": 256.9366455078125,
+    "test_R_squared": 0.9454769492149352
+  },
+  "record_type": "existing_evaluation"
+}

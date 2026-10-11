@@ -1,0 +1,10 @@
+2026-10-11 09:36:17,055 | INFO | __main__ | Advanced AI experiment tracking notebook has started.
+2026-10-11 09:36:17,105 | INFO | __main__ | MLflow availability check has completed: True.
+2026-10-11 09:37:33,210 | INFO | __main__ | MLflow 3.17.0 imported successfully.
+2026-10-11 09:39:33,504 | INFO | __main__ | Local MLflow tracking is configured for experiment Smart City Traffic Regression.
+2026-10-11 09:42:30,460 | INFO | __main__ | Loaded results for 2 models and verified the required artifacts.
+2026-10-11 09:45:51,939 | INFO | __main__ | Recorded the completed MLflow run for Random Forest.
+2026-10-11 09:45:52,164 | INFO | __main__ | Recorded the completed MLflow run for Neural Network.
+2026-10-11 09:47:30,550 | INFO | __main__ | Verified metrics and 5 listed artifacts for Random Forest.
+2026-10-11 09:47:30,630 | INFO | __main__ | Verified metrics and 6 listed artifacts for Neural Network.
+2026-10-11 09:47:30,659 | INFO | __main__ | Saved the MLflow comparison and artifact inventory.
