@@ -1,0 +1,29 @@
+{
+  "model_version": "v1",
+  "method": "absolute mean shift divided by training standard deviation",
+  "alert_threshold": 1.0,
+  "minimum_batch_size": 100,
+  "reference_source": "saved training preprocessing scaler",
+  "features": [
+    {
+      "feature": "temp",
+      "training_mean": 280.90258916176515,
+      "training_std": 12.589539280336673
+    },
+    {
+      "feature": "rain_1h",
+      "training_mean": 0.14812393722298106,
+      "training_std": 1.1242943681471766
+    },
+    {
+      "feature": "clouds_all",
+      "training_mean": 49.89440526301118,
+      "training_std": 38.84846874382971
+    },
+    {
+      "feature": "hour",
+      "training_mean": 11.397764335293953,
+      "training_std": 6.952333417383636
+    }
+  ]
+}

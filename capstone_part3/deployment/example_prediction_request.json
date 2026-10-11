@@ -1,0 +1,49 @@
+{
+  "records": [
+    {
+      "date_time": "2018-05-07 06:00:00",
+      "temp": 288.15,
+      "rain_1h": 0.0,
+      "snow_1h": 0.0,
+      "clouds_all": 0.0,
+      "weather_main": "Clear",
+      "is_holiday": 0
+    },
+    {
+      "date_time": "2018-05-07 07:00:00",
+      "temp": 288.15,
+      "rain_1h": 0.0,
+      "snow_1h": 0.0,
+      "clouds_all": 0.0,
+      "weather_main": "Clear",
+      "is_holiday": 0
+    },
+    {
+      "date_time": "2018-05-07 08:00:00",
+      "temp": 288.15,
+      "rain_1h": 0.0,
+      "snow_1h": 0.0,
+      "clouds_all": 0.0,
+      "weather_main": "Clear",
+      "is_holiday": 0
+    },
+    {
+      "date_time": "2018-05-07 09:00:00",
+      "temp": 288.15,
+      "rain_1h": 0.0,
+      "snow_1h": 0.0,
+      "clouds_all": 0.0,
+      "weather_main": "Clear",
+      "is_holiday": 0
+    },
+    {
+      "date_time": "2018-05-07 10:00:00",
+      "temp": 288.15,
+      "rain_1h": 0.0,
+      "snow_1h": 0.0,
+      "clouds_all": 0.0,
+      "weather_main": "Clear",
+      "is_holiday": 0
+    }
+  ]
+}

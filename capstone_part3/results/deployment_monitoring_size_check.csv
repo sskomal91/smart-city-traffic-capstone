@@ -1,0 +1,2 @@
+check,result,message
+Monitoring batch below 100 records,PASS,Monitoring requires at least 100 records.

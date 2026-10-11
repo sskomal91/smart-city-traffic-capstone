@@ -1,0 +1,26 @@
+{
+  "model_version": "v1",
+  "prediction_units": "vehicles per hour",
+  "predictions": [
+    {
+      "date_time": "2018-05-07 06:00:00",
+      "predicted_traffic_volume": 5692.326533423001
+    },
+    {
+      "date_time": "2018-05-07 07:00:00",
+      "predicted_traffic_volume": 5475.101870873306
+    },
+    {
+      "date_time": "2018-05-07 08:00:00",
+      "predicted_traffic_volume": 5871.444096944263
+    },
+    {
+      "date_time": "2018-05-07 09:00:00",
+      "predicted_traffic_volume": 4956.370731774763
+    },
+    {
+      "date_time": "2018-05-07 10:00:00",
+      "predicted_traffic_volume": 4204.3116269841275
+    }
+  ]
+}

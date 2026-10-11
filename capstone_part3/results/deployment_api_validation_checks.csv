@@ -1,0 +1,7 @@
+check,HTTP_status,result
+Health endpoint,200,PASS
+Prediction values and input order,200,PASS
+Unknown weather category,422,PASS
+Duplicate timestamp,422,PASS
+Missing temperature,422,PASS
+Cloud cover above 100,422,PASS

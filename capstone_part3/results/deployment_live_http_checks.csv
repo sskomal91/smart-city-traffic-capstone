@@ -1,0 +1,4 @@
+check,HTTP_status,result
+Running server health,200,PASS
+Running server predictions and input order,200,PASS
+Running server rejects invalid cloud cover,422,PASS

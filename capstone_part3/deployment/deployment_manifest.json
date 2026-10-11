@@ -1,0 +1,15 @@
+{
+  "model_name": "Random Forest regression",
+  "model_version": "v1",
+  "target": "traffic_volume",
+  "prediction_units": "vehicles per hour",
+  "model_file": "models/random_forest_regression_v1.joblib",
+  "preparation_file": "models/preparation_config_v1.joblib",
+  "model_sha256": "8a313552ab03500be89297e321bb6056e2007054da46b7bf7c7141908c0094eb",
+  "preparation_sha256": "5a511d4d97d2070edb166a54047e74dbf64cb98c24fc61f2782460a47ea087ff",
+  "validation_MAE": 317.5692499185647,
+  "validation_R_squared": 0.9256419282130413,
+  "test_MAE": 250.835794640864,
+  "test_R_squared": 0.9447586043470722,
+  "deployment_type": "local simulation"
+}

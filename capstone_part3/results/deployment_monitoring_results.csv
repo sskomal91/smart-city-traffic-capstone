@@ -1,0 +1,9 @@
+feature,training_mean,batch_mean,standardised_mean_shift,threshold,status,batch
+temp,280.90258916176515,280.9025891617652,4.5151309825603e-15,1.0,PASS,Reference-like synthetic batch
+rain_1h,0.14812393722298106,0.14812393722298103,2.4687107222079003e-17,1.0,PASS,Reference-like synthetic batch
+clouds_all,49.89440526301118,49.894405263011194,3.658021840940412e-16,1.0,PASS,Reference-like synthetic batch
+hour,11.397764335293953,11.5,0.014705230397957694,1.0,PASS,Reference-like synthetic batch
+temp,280.90258916176515,306.08166772243845,1.9999999999999967,1.0,ALERT,Temperature-shifted synthetic batch
+rain_1h,0.14812393722298106,0.14812393722298103,2.4687107222079003e-17,1.0,PASS,Temperature-shifted synthetic batch
+clouds_all,49.89440526301118,49.894405263011194,3.658021840940412e-16,1.0,PASS,Temperature-shifted synthetic batch
+hour,11.397764335293953,11.5,0.014705230397957694,1.0,PASS,Temperature-shifted synthetic batch
