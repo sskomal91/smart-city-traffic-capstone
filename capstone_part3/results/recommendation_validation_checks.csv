@@ -1,0 +1,4 @@
+check,result,message
+Unknown weather category,PASS,Weather categories must match those used in training.
+Duplicate timestamp,PASS,Candidate timestamps must be unique.
+Cloud cover above 100,PASS,Cloud cover must be between 0 and 100.

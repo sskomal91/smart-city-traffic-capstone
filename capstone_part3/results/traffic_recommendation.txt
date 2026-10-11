@@ -1,0 +1,1 @@
+Among the 5 supplied candidate hours, 07 May 2018 at 10:00 has the lowest predicted traffic volume, approximately 4204 vehicles during that hour. This is approximately 1667 fewer than the highest-volume candidate. The comparison uses yje  supplied weather and holiday assumptions; it is not live traffic information or a journey-time estimate.
