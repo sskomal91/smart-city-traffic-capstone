@@ -1,0 +1,3 @@
+model,model_version,model_file,deployment_status,validation_MAE,validation_R_squared,test_MAE,test_R_squared
+Random Forest,v1,models/random_forest_regression_v1.joblib,Deployed in local API,317.5692499185647,0.9256419282130413,250.835794640864,0.9447586043470722
+Neural Network,v1,models/neural_network_traffic_v1.keras,Comparison candidate,316.4414367675781,0.9306917786598206,256.9366455078125,0.9454769492149352
