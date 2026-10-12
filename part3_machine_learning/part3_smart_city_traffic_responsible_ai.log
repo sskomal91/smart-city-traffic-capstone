@@ -1,0 +1,34 @@
+2026-10-11 22:21:04,962 | INFO | __main__ | Responsible and sustainable AI notebook has started.
+2026-10-11 22:21:05,044 | INFO | __main__ | Loaded and checked the saved held-out test predictions.
+2026-10-11 22:28:20,921 | INFO | __main__ | Compared and saved held-out prediction errors across time groups.
+2026-10-11 22:32:21,690 | INFO | __main__ | Compared and saved held-out prediction errors for weekdays and weekends.
+2026-10-11 22:36:46,860 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-11 22:36:46,945 | INFO | pipeline | holiday: no text changes are required.
+2026-10-11 22:36:46,978 | INFO | pipeline | weather_main: no text changes are required.
+2026-10-11 22:36:47,009 | WARNING | pipeline | weather_description: changed 1730 rows to fix spaces and capital letters.
+2026-10-11 22:36:47,070 | INFO | pipeline | Date check has passed. No missing or invalid dates.
+2026-10-11 22:36:47,071 | INFO | pipeline | date_time is now in datetime format.
+2026-10-11 22:36:47,083 | INFO | pipeline | temp: number conversion finished.
+2026-10-11 22:36:47,087 | INFO | pipeline | rain_1h: number conversion finished.
+2026-10-11 22:36:47,091 | INFO | pipeline | snow_1h: number conversion finished.
+2026-10-11 22:36:47,095 | INFO | pipeline | clouds_all: number conversion finished.
+2026-10-11 22:36:47,099 | INFO | pipeline | traffic_volume: number conversion finished.
+2026-10-11 22:36:47,124 | INFO | pipeline | holiday: no missing category values.
+2026-10-11 22:36:47,136 | INFO | pipeline | weather_main: no missing category values.
+2026-10-11 22:36:47,145 | INFO | pipeline | weather_description: no missing category values.
+2026-10-11 22:36:47,171 | INFO | pipeline | snow_1h: no missing or invalid numbers.
+2026-10-11 22:36:47,174 | INFO | pipeline | clouds_all: no missing or invalid numbers.
+2026-10-11 22:36:47,176 | INFO | pipeline | traffic_volume: no missing or invalid numbers.
+2026-10-11 22:36:47,329 | WARNING | pipeline | Dropped 17 rows because all their values were duplicates.
+2026-10-11 22:36:47,331 | INFO | pipeline | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-11 22:36:47,512 | INFO | __main__ | Verified test row alignment and attached weather labels.
+2026-10-11 22:38:43,760 | INFO | __main__ | Saved weather group errors and identified limited or absent test coverage.
+2026-10-11 22:46:52,009 | INFO | __main__ | Saved and verified reports/responsible_sustainable_ai_report.md.
+2026-10-12 06:06:00,471 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2026-10-12 06:06:00,488 | WARNING | Comm | No such comm: 75f12699-d0f7-4419-ac6f-68c770f8495d
+2026-10-12 06:36:05,254 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2026-10-12 06:36:05,261 | WARNING | Comm | No such comm: 8692a9ca-f11e-463e-b394-7bc485ef003b
+2026-10-12 07:36:11,660 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2026-10-12 07:36:11,667 | WARNING | Comm | No such comm: 24995b0e-e06d-41fa-bb1f-e401b473711c
+2026-10-12 08:35:52,331 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2026-10-12 08:35:52,341 | WARNING | Comm | No such comm: 295fa81f-535f-4c2c-a25b-a97b5ca518b2

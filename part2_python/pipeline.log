@@ -1,0 +1,452 @@
+2026-10-10 00:16:31,713 | INFO | __main__ | Logging has been enabled.
+2026-10-10 00:17:48,833 | INFO | __main__ | Raw CSV has been loaded succesfully: 48204 rows and 9 columns.
+2026-10-10 00:19:33,642 | INFO | __main__ | Logging has been enabled.
+2026-10-10 00:19:48,334 | INFO | __main__ | Raw CSV has been loaded succesfully: 48204 rows and 9 columns.
+2026-10-10 00:27:26,453 | INFO | __main__ | Schema check has passed all validations: all required columns are present.
+2026-10-10 00:30:42,372 | INFO | __main__ | holiday: no category changes needed.
+2026-10-10 00:30:42,393 | INFO | __main__ | weather_main: no category changes needed.
+2026-10-10 00:30:42,432 | WARNING | __main__ | weather_description: modified 1730 rows to standardise spaces and capitalisation.
+2026-10-10 00:31:46,601 | INFO | __main__ | holiday: no category changes needed.
+2026-10-10 00:31:46,623 | INFO | __main__ | weather_main: no category changes needed.
+2026-10-10 00:31:46,646 | WARNING | __main__ | weather_description: modified 1730 rows to standardise spaces and capitalisation.
+2026-10-10 00:34:15,887 | INFO | __main__ | Date/time check has passed: no missing or invalid dates.
+2026-10-10 00:34:15,888 | INFO | __main__ | date_time is converted to datetime format.
+2026-10-10 00:36:51,765 | WARNING | __main__ | Dropped 17 rows because all column values were duplicates.
+2026-10-10 00:36:51,766 | INFO | __main__ | Dataset after duplicate removal: 48187 rows and 9 columns.
+2026-10-10 00:39:59,824 | WARNING | __main__ | Fixed 4 missing or invalid temperature readings in month 1 using the monthly median.
+2026-10-10 00:39:59,833 | WARNING | __main__ | Fixed 6 missing or invalid temperature readings in month 2 using the monthly median.
+2026-10-10 00:41:26,760 | WARNING | __main__ | Fixed 1 missing or invalid rainfall readings in month 7 using the monthly median.
+2026-10-10 00:42:19,846 | INFO | __main__ | Missing value check completed.
+2026-10-10 00:42:53,155 | INFO | __main__ | Snow, cloud cover and traffic checks completed.
+2026-10-10 00:43:54,675 | INFO | __main__ | Missing value check completed.
+2026-10-10 00:43:54,705 | INFO | __main__ | Cleaned data checks passed. There are 48187 rows and 9 columns.
+2026-10-10 00:44:56,628 | INFO | __main__ | Cleaned data saved to data/traffic_cleaned.csv.
+2026-10-10 07:21:33,781 | ERROR | ipykernel.comm | No such comm target registered: jupyter.widget.control
+2026-10-10 07:21:33,795 | WARNING | Comm | No such comm: 5b6ea3f5-e39f-416f-b473-34ea6f12c74a
+2026-10-10 08:54:50,753 | INFO | __main__ | Traffic pipeline started.
+2026-10-10 08:54:50,888 | INFO | __main__ | Raw CSV has loaded succesfully. There are 48204 rows and 9 columns.
+2026-10-10 08:54:50,891 | INFO | __main__ | Column check has passed. All required columns are present.
+2026-10-10 08:54:50,946 | INFO | __main__ | holiday: no text changes are required.
+2026-10-10 08:54:50,993 | INFO | __main__ | weather_main: no text changes are required.
+2026-10-10 08:54:51,043 | WARNING | __main__ | weather_description: changed 1730 rows to fix spaces and capital letters.
+2026-10-10 08:54:51,110 | INFO | __main__ | Date check has passed. No missing or invalid dates.
+2026-10-10 08:54:51,111 | INFO | __main__ | date_time is now in datetime format.
+2026-10-10 08:54:51,128 | INFO | __main__ | temp: number conversion finished.
+2026-10-10 08:54:51,130 | INFO | __main__ | rain_1h: number conversion finished.
+2026-10-10 08:54:51,132 | INFO | __main__ | snow_1h: number conversion finished.
+2026-10-10 08:54:51,136 | INFO | __main__ | clouds_all: number conversion finished.
+2026-10-10 08:54:51,138 | INFO | __main__ | traffic_volume: number conversion finished.
+2026-10-10 08:54:51,167 | INFO | __main__ | holiday: no missing category values.
+2026-10-10 08:54:51,183 | INFO | __main__ | weather_main: no missing category values.
+2026-10-10 08:54:51,202 | INFO | __main__ | weather_description: no missing category values.
+2026-10-10 08:54:51,226 | INFO | __main__ | snow_1h: no missing or invalid numbers.
+2026-10-10 08:54:51,229 | INFO | __main__ | clouds_all: no missing or invalid numbers.
+2026-10-10 08:54:51,231 | INFO | __main__ | traffic_volume: no missing or invalid numbers.
+2026-10-10 08:54:51,401 | WARNING | __main__ | Dropped 17 rows because all their values were duplicates.
+2026-10-10 08:54:51,402 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-10 08:54:51,426 | WARNING | __main__ | Fixed 4 missing or invalid temperatures in month 1 using the monthly median.
+2026-10-10 08:54:51,431 | WARNING | __main__ | Fixed 6 missing or invalid temperatures in month 2 using the monthly median.
+2026-10-10 08:54:51,458 | WARNING | __main__ | Fixed 1 missing or invalid rainfall readings in month 7 using the monthly median.
+2026-10-10 08:54:51,590 | INFO | __main__ | Duplicate check finished. No exact duplicates found.
+2026-10-10 08:54:51,590 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-10 08:54:51,759 | INFO | __main__ | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 08:54:52,623 | INFO | __main__ | Cleaned data saved to data/traffic_cleaned.csv.
+2026-10-10 08:54:52,628 | INFO | __main__ | Traffic pipeline completed succesfully.
+2026-10-10 08:58:09,062 | INFO | __main__ | Traffic pipeline started.
+2026-10-10 08:58:09,173 | INFO | __main__ | Raw CSV has loaded succesfully. There are 48204 rows and 9 columns.
+2026-10-10 08:58:09,175 | INFO | __main__ | Column check has passed. All required columns are present.
+2026-10-10 08:58:09,215 | INFO | __main__ | holiday: no text changes are required.
+2026-10-10 08:58:09,263 | INFO | __main__ | weather_main: no text changes are required.
+2026-10-10 08:58:09,296 | WARNING | __main__ | weather_description: changed 1730 rows to fix spaces and capital letters.
+2026-10-10 08:58:09,332 | INFO | __main__ | Date check has passed. No missing or invalid dates.
+2026-10-10 08:58:09,332 | INFO | __main__ | date_time is now in datetime format.
+2026-10-10 08:58:09,342 | INFO | __main__ | temp: number conversion finished.
+2026-10-10 08:58:09,343 | INFO | __main__ | rain_1h: number conversion finished.
+2026-10-10 08:58:09,344 | INFO | __main__ | snow_1h: number conversion finished.
+2026-10-10 08:58:09,347 | INFO | __main__ | clouds_all: number conversion finished.
+2026-10-10 08:58:09,348 | INFO | __main__ | traffic_volume: number conversion finished.
+2026-10-10 08:58:09,367 | INFO | __main__ | holiday: no missing category values.
+2026-10-10 08:58:09,380 | INFO | __main__ | weather_main: no missing category values.
+2026-10-10 08:58:09,388 | INFO | __main__ | weather_description: no missing category values.
+2026-10-10 08:58:09,402 | INFO | __main__ | snow_1h: no missing or invalid numbers.
+2026-10-10 08:58:09,403 | INFO | __main__ | clouds_all: no missing or invalid numbers.
+2026-10-10 08:58:09,404 | INFO | __main__ | traffic_volume: no missing or invalid numbers.
+2026-10-10 08:58:09,492 | WARNING | __main__ | Dropped 17 rows because all their values were duplicates.
+2026-10-10 08:58:09,493 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-10 08:58:09,510 | DEBUG | __main__ | Month 1 temperature median is 266.83 Kelvin.
+2026-10-10 08:58:09,511 | WARNING | __main__ | Fixed 4 missing or invalid temperatures in month 1 using the monthly median.
+2026-10-10 08:58:09,513 | DEBUG | __main__ | Month 2 temperature median is 266.51 Kelvin.
+2026-10-10 08:58:09,515 | WARNING | __main__ | Fixed 6 missing or invalid temperatures in month 2 using the monthly median.
+2026-10-10 08:58:09,537 | DEBUG | __main__ | Month 7 rainfall median is 0.0 mm.
+2026-10-10 08:58:09,538 | WARNING | __main__ | Fixed 1 missing or invalid rainfall readings in month 7 using the monthly median.
+2026-10-10 08:58:09,620 | INFO | __main__ | Duplicate check finished. No exact duplicates found.
+2026-10-10 08:58:09,621 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-10 08:58:09,724 | INFO | __main__ | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 08:58:10,139 | INFO | __main__ | Cleaned data saved to data/traffic_cleaned.csv.
+2026-10-10 08:58:10,141 | INFO | __main__ | Traffic pipeline completed succesfully.
+2026-10-10 10:28:36,572 | INFO | __main__ | Logging has been enabled.
+2026-10-10 10:30:01,696 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-10 10:30:01,713 | INFO | __main__ | Hour, day of week and weekend features were added.
+2026-10-10 10:31:09,714 | INFO | __main__ | Cyclical hour features were added.
+2026-10-10 10:32:17,733 | INFO | __main__ | Weather encoding, rain and snow features have been      added.
+2026-10-10 10:34:42,612 | INFO | __main__ | temp scaled feature was added.
+2026-10-10 10:34:42,617 | INFO | __main__ | rain_1h scaled feature was added.
+2026-10-10 10:49:11,418 | INFO | __main__ | Data-driven Traffic Categories added.
+2026-10-10 10:51:32,366 | INFO | __main__ | Feature validation checks are complete. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 10:53:08,263 | INFO | __main__ | Feature data has been saved to data/traffic_features.csv.
+2026-10-10 11:58:31,436 | INFO | __main__ | Feature engineering has started.
+2026-10-10 11:58:31,679 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 11:58:31,680 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-10 11:58:31,701 | INFO | __main__ | Time features and cyclical hour features were added.
+2026-10-10 11:58:31,731 | INFO | __main__ | Weather encoding, rain and snow features have been added.
+2026-10-10 11:58:31,749 | INFO | __main__ | temp scaled feature have bee added.
+2026-10-10 11:58:31,751 | INFO | __main__ | rain_1h scaled feature have bee added.
+2026-10-10 11:58:31,772 | INFO | __main__ | Data-driven traffic categories have been added.
+2026-10-10 11:58:31,814 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 11:58:32,686 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
+2026-10-10 11:58:32,690 | INFO | __main__ | Feature engineering has completed successfully.
+2026-10-10 11:59:20,469 | INFO | __main__ | Feature engineering has started.
+2026-10-10 11:59:20,616 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 11:59:20,616 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-10 11:59:20,628 | INFO | __main__ | Time features and cyclical hour features were added.
+2026-10-10 11:59:20,645 | INFO | __main__ | Weather encoding, rain and snow features have been added.
+2026-10-10 11:59:20,654 | DEBUG | __main__ | temp scaling minimum is 243.39 and maximum is 310.07.
+2026-10-10 11:59:20,655 | INFO | __main__ | temp scaled feature have bee added.
+2026-10-10 11:59:20,655 | DEBUG | __main__ | rain_1h scaling minimum is 0.0 and maximum is 55.63.
+2026-10-10 11:59:20,656 | INFO | __main__ | rain_1h scaled feature have bee added.
+2026-10-10 11:59:20,663 | DEBUG | __main__ | Traffic category thresholds are 1192.5 and 4933.0 vehicles.
+2026-10-10 11:59:20,670 | INFO | __main__ | Data-driven traffic categories have been added.
+2026-10-10 11:59:20,701 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 11:59:21,317 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
+2026-10-10 11:59:21,320 | INFO | __main__ | Feature engineering has completed successfully.
+2026-10-10 12:17:47,371 | INFO | __main__ | Feature engineering has started.
+2026-10-10 12:17:47,628 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-10 12:17:47,628 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-10 12:17:47,649 | INFO | __main__ | Time features and cyclical hour features were added.
+2026-10-10 12:17:47,675 | INFO | __main__ | Weather encoding, rain and snow features have been added.
+2026-10-10 12:17:47,688 | INFO | __main__ | temp scaled feature have bee added.
+2026-10-10 12:17:47,690 | INFO | __main__ | rain_1h scaled feature have bee added.
+2026-10-10 12:17:47,714 | INFO | __main__ | Data-driven traffic categories have been added.
+2026-10-10 12:17:47,761 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 12:17:48,633 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
+2026-10-10 12:17:48,637 | INFO | __main__ | Feature engineering has completed successfully.
+2026-10-10 16:12:58,842 | INFO | __main__ | Chart saved to charts/traffic_by_hour.png.
+2026-10-10 16:14:50,669 | INFO | __main__ | Chart saved to charts/traffic_by_hour.png.
+2026-10-10 16:15:10,765 | INFO | __main__ | Chart is saved to charts/weekday_weekend_traffic.png.
+2026-10-10 16:16:54,804 | INFO | __main__ | Chart is saved to charts/traffic_by_weather.png.
+2026-10-10 16:25:03,541 | INFO | __main__ | Traffic visualisation has started.
+2026-10-10 16:25:03,973 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 16:25:03,973 | INFO | __main__ | Chart data has loaded. There are 48187 rows and 30 columns.
+2026-10-10 16:25:04,438 | INFO | __main__ | Chart is saved to charts/traffic_by_hour.png.
+2026-10-10 16:25:04,671 | INFO | __main__ | Chart is saved to charts/weekday_weekend_traffic.png.
+2026-10-10 16:25:05,034 | INFO | __main__ | Chart is saved to charts/traffic_by_weather.png.
+2026-10-10 16:25:05,034 | INFO | __main__ | All three traffic charts have saved.
+2026-10-10 16:25:05,037 | INFO | __main__ | Traffic visualisation has completed successfully.
+2026-10-10 17:02:16,858 | INFO | __main__ | Application is invoked with arguments ['compare-days'].
+2026-10-10 17:02:16,860 | INFO | __main__ | Command compare-days is invoked with arguments {'debug': False, 'command': 'compare-days'}.
+2026-10-10 17:02:17,085 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-10 17:02:17,235 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-10 17:02:17,288 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 17:02:17,288 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-10 17:02:17,300 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-10 17:02:51,744 | INFO | __main__ | Application is invoked with arguments ['query', '--datetime', '2012-10-02 09:00:00'].
+2026-10-10 17:02:51,746 | INFO | __main__ | Command query is invoked with arguments {'debug': False, 'command': 'query', 'datetime': '2012-10-02 09:00:00'}.
+2026-10-10 17:02:51,919 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-10 17:02:52,041 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-10 17:02:52,069 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 17:02:52,069 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-10 17:02:52,086 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-10 17:04:28,898 | INFO | __main__ | Application is invoked with arguments ['high-traffic', '--threshold', '7000'].
+2026-10-10 17:04:28,900 | INFO | __main__ | Command high-traffic is invoked with arguments {'debug': False, 'command': 'high-traffic', 'threshold': 7000}.
+2026-10-10 17:04:29,064 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-10 17:04:29,201 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-10 17:04:29,229 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 17:04:29,229 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-10 17:04:29,238 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-10 17:05:02,106 | INFO | __main__ | Application is invoked with arguments ['query', '--datetime', 'invalid-date'].
+2026-10-10 17:05:02,108 | INFO | __main__ | Command query is invoked with arguments {'debug': False, 'command': 'query', 'datetime': 'invalid-date'}.
+2026-10-10 17:05:02,330 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-10 17:05:02,465 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-10 17:05:02,504 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-10 17:05:02,505 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-10 17:05:02,505 | ERROR | __main__ | Traffic application could not complete: Use a valid date and time in YYYY-MM-DD HH:MM:SS format..
+2026-10-10 17:06:15,249 | INFO | __main__ | Application is invoked with arguments ['high-traffic', '--threshold', 'abc'].
+2026-10-10 17:06:15,252 | ERROR | __main__ | Traffic application could not complete: Invalid command arguments: argument --threshold: invalid int value: 'abc'..
+2026-10-12 21:33:34,870 | INFO | __main__ | Traffic pipeline started.
+2026-10-12 21:33:34,941 | INFO | __main__ | Raw CSV has loaded succesfully. There are 48204 rows and 9 columns.
+2026-10-12 21:33:34,942 | INFO | __main__ | Column check has passed. All required columns are present.
+2026-10-12 21:33:34,974 | INFO | __main__ | holiday: no text changes are required.
+2026-10-12 21:33:34,997 | INFO | __main__ | weather_main: no text changes are required.
+2026-10-12 21:33:35,018 | WARNING | __main__ | weather_description: changed 1730 rows to fix spaces and capital letters.
+2026-10-12 21:33:35,044 | INFO | __main__ | Date check has passed. No missing or invalid dates.
+2026-10-12 21:33:35,044 | INFO | __main__ | date_time is now in datetime format.
+2026-10-12 21:33:35,049 | INFO | __main__ | temp: number conversion finished.
+2026-10-12 21:33:35,050 | INFO | __main__ | rain_1h: number conversion finished.
+2026-10-12 21:33:35,050 | INFO | __main__ | snow_1h: number conversion finished.
+2026-10-12 21:33:35,051 | INFO | __main__ | clouds_all: number conversion finished.
+2026-10-12 21:33:35,052 | INFO | __main__ | traffic_volume: number conversion finished.
+2026-10-12 21:33:35,064 | INFO | __main__ | holiday: no missing category values.
+2026-10-12 21:33:35,068 | INFO | __main__ | weather_main: no missing category values.
+2026-10-12 21:33:35,073 | INFO | __main__ | weather_description: no missing category values.
+2026-10-12 21:33:35,080 | INFO | __main__ | snow_1h: no missing or invalid numbers.
+2026-10-12 21:33:35,081 | INFO | __main__ | clouds_all: no missing or invalid numbers.
+2026-10-12 21:33:35,081 | INFO | __main__ | traffic_volume: no missing or invalid numbers.
+2026-10-12 21:33:35,140 | WARNING | __main__ | Dropped 17 rows because all their values were duplicates.
+2026-10-12 21:33:35,140 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-12 21:33:35,149 | WARNING | __main__ | Fixed 4 missing or invalid temperatures in month 1 using the monthly median.
+2026-10-12 21:33:35,151 | WARNING | __main__ | Fixed 6 missing or invalid temperatures in month 2 using the monthly median.
+2026-10-12 21:33:35,163 | WARNING | __main__ | Fixed 1 missing or invalid rainfall readings in month 7 using the monthly median.
+2026-10-12 21:33:35,213 | INFO | __main__ | Duplicate check finished. No exact duplicates found.
+2026-10-12 21:33:35,213 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-12 21:33:35,276 | INFO | __main__ | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-12 21:33:35,471 | INFO | __main__ | Cleaned data saved to data/traffic_cleaned.csv.
+2026-10-12 21:33:35,473 | INFO | __main__ | Traffic pipeline completed succesfully.
+2026-10-12 21:33:36,894 | INFO | __main__ | Feature engineering has started.
+2026-10-12 21:33:37,047 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-12 21:33:37,048 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-12 21:33:37,059 | INFO | __main__ | Time features and cyclical hour features were added.
+2026-10-12 21:33:37,074 | INFO | __main__ | Weather encoding, rain and snow features have been added.
+2026-10-12 21:33:37,084 | INFO | __main__ | temp scaled feature have bee added.
+2026-10-12 21:33:37,086 | INFO | __main__ | rain_1h scaled feature have bee added.
+2026-10-12 21:33:37,101 | INFO | __main__ | Data-driven traffic categories have been added.
+2026-10-12 21:33:37,125 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:33:37,663 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
+2026-10-12 21:33:37,665 | INFO | __main__ | Feature engineering has completed successfully.
+2026-10-12 21:34:02,783 | INFO | __main__ | Traffic visualisation has started.
+2026-10-12 21:34:03,047 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:34:03,047 | INFO | __main__ | Chart data has loaded. There are 48187 rows and 30 columns.
+2026-10-12 21:34:03,352 | INFO | __main__ | Chart is saved to charts/traffic_by_hour.png.
+2026-10-12 21:34:03,479 | INFO | __main__ | Chart is saved to charts/weekday_weekend_traffic.png.
+2026-10-12 21:34:03,662 | INFO | __main__ | Chart is saved to charts/traffic_by_weather.png.
+2026-10-12 21:34:03,662 | INFO | __main__ | All three traffic charts have saved.
+2026-10-12 21:34:03,664 | INFO | __main__ | Traffic visualisation has completed successfully.
+2026-10-12 21:34:05,267 | INFO | __main__ | Application is invoked with arguments ['query', '--datetime', '2012-10-02 09:00:00'].
+2026-10-12 21:34:05,270 | INFO | __main__ | Command query is invoked with arguments {'debug': False, 'command': 'query', 'datetime': '2012-10-02 09:00:00'}.
+2026-10-12 21:34:05,429 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 21:34:05,551 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 21:34:05,576 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:34:05,576 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 21:34:05,589 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-12 21:34:07,006 | INFO | __main__ | Application is invoked with arguments ['high-traffic', '--threshold', '7000'].
+2026-10-12 21:34:07,009 | INFO | __main__ | Command high-traffic is invoked with arguments {'debug': False, 'command': 'high-traffic', 'threshold': 7000}.
+2026-10-12 21:34:07,178 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 21:34:07,289 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 21:34:07,315 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:34:07,315 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 21:34:07,321 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-12 21:34:08,774 | INFO | __main__ | Application is invoked with arguments ['compare-days'].
+2026-10-12 21:34:08,777 | INFO | __main__ | Command compare-days is invoked with arguments {'debug': False, 'command': 'compare-days'}.
+2026-10-12 21:34:08,941 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 21:34:09,060 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 21:34:09,085 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:34:09,086 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 21:34:09,092 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-12 21:34:10,590 | INFO | __main__ | Application is invoked with arguments ['query', '--datetime', 'invalid-date'].
+2026-10-12 21:34:10,593 | INFO | __main__ | Command query is invoked with arguments {'debug': False, 'command': 'query', 'datetime': 'invalid-date'}.
+2026-10-12 21:34:10,761 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 21:34:10,872 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 21:34:10,899 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:34:10,899 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 21:34:10,899 | ERROR | __main__ | Traffic application could not complete: Use a valid date and time in YYYY-MM-DD HH:MM:SS format..
+2026-10-12 21:34:12,376 | INFO | __main__ | Application is invoked with arguments ['high-traffic', '--threshold', 'abc'].
+2026-10-12 21:34:12,379 | ERROR | __main__ | Traffic application could not complete: Invalid command arguments: argument --threshold: invalid int value: 'abc'..
+2026-10-12 21:42:24,387 | INFO | __main__ | Application is invoked with arguments ['compare-days'].
+2026-10-12 21:42:24,389 | INFO | __main__ | Command compare-days is invoked with arguments {'debug': False, 'command': 'compare-days'}.
+2026-10-12 21:42:24,598 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 21:42:24,752 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 21:42:24,800 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:42:24,800 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 21:42:24,818 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-12 21:43:13,580 | INFO | __main__ | Traffic pipeline started.
+2026-10-12 21:43:13,649 | INFO | __main__ | Raw CSV has loaded succesfully. There are 48204 rows and 9 columns.
+2026-10-12 21:43:13,649 | INFO | __main__ | Column check has passed. All required columns are present.
+2026-10-12 21:43:13,686 | INFO | __main__ | holiday: no text changes are required.
+2026-10-12 21:43:13,708 | INFO | __main__ | weather_main: no text changes are required.
+2026-10-12 21:43:13,729 | WARNING | __main__ | weather_description: changed 1730 rows to fix spaces and capital letters.
+2026-10-12 21:43:13,754 | INFO | __main__ | Date check has passed. No missing or invalid dates.
+2026-10-12 21:43:13,754 | INFO | __main__ | date_time is now in datetime format.
+2026-10-12 21:43:13,759 | INFO | __main__ | temp: number conversion finished.
+2026-10-12 21:43:13,760 | INFO | __main__ | rain_1h: number conversion finished.
+2026-10-12 21:43:13,761 | INFO | __main__ | snow_1h: number conversion finished.
+2026-10-12 21:43:13,762 | INFO | __main__ | clouds_all: number conversion finished.
+2026-10-12 21:43:13,762 | INFO | __main__ | traffic_volume: number conversion finished.
+2026-10-12 21:43:13,775 | INFO | __main__ | holiday: no missing category values.
+2026-10-12 21:43:13,780 | INFO | __main__ | weather_main: no missing category values.
+2026-10-12 21:43:13,786 | INFO | __main__ | weather_description: no missing category values.
+2026-10-12 21:43:13,794 | INFO | __main__ | snow_1h: no missing or invalid numbers.
+2026-10-12 21:43:13,795 | INFO | __main__ | clouds_all: no missing or invalid numbers.
+2026-10-12 21:43:13,796 | INFO | __main__ | traffic_volume: no missing or invalid numbers.
+2026-10-12 21:43:13,849 | WARNING | __main__ | Dropped 17 rows because all their values were duplicates.
+2026-10-12 21:43:13,850 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-12 21:43:13,865 | WARNING | __main__ | Fixed 4 missing or invalid temperatures in month 1 using the monthly median.
+2026-10-12 21:43:13,866 | WARNING | __main__ | Fixed 6 missing or invalid temperatures in month 2 using the monthly median.
+2026-10-12 21:43:13,880 | WARNING | __main__ | Fixed 1 missing or invalid rainfall readings in month 7 using the monthly median.
+2026-10-12 21:43:13,936 | INFO | __main__ | Duplicate check finished. No exact duplicates found.
+2026-10-12 21:43:13,936 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-12 21:43:14,007 | INFO | __main__ | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-12 21:43:14,266 | INFO | __main__ | Cleaned data saved to data/traffic_cleaned.csv.
+2026-10-12 21:43:14,269 | INFO | __main__ | Traffic pipeline completed succesfully.
+2026-10-12 21:44:13,340 | INFO | __main__ | Feature engineering has started.
+2026-10-12 21:44:13,484 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-12 21:44:13,485 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-12 21:44:13,502 | INFO | __main__ | Time features and cyclical hour features were added.
+2026-10-12 21:44:13,522 | INFO | __main__ | Weather encoding, rain and snow features have been added.
+2026-10-12 21:44:13,532 | INFO | __main__ | temp scaled feature have bee added.
+2026-10-12 21:44:13,534 | INFO | __main__ | rain_1h scaled feature have bee added.
+2026-10-12 21:44:13,550 | INFO | __main__ | Data-driven traffic categories have been added.
+2026-10-12 21:44:13,586 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:44:14,180 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
+2026-10-12 21:44:14,184 | INFO | __main__ | Feature engineering has completed successfully.
+2026-10-12 21:45:12,540 | INFO | __main__ | Traffic visualisation has started.
+2026-10-12 21:45:12,770 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:45:12,771 | INFO | __main__ | Chart data has loaded. There are 48187 rows and 30 columns.
+2026-10-12 21:45:13,036 | INFO | __main__ | Chart is saved to charts/traffic_by_hour.png.
+2026-10-12 21:45:13,169 | INFO | __main__ | Chart is saved to charts/weekday_weekend_traffic.png.
+2026-10-12 21:45:13,349 | INFO | __main__ | Chart is saved to charts/traffic_by_weather.png.
+2026-10-12 21:45:13,349 | INFO | __main__ | All three traffic charts have saved.
+2026-10-12 21:45:13,351 | INFO | __main__ | Traffic visualisation has completed successfully.
+2026-10-12 21:47:19,419 | INFO | __main__ | Traffic visualisation has started.
+2026-10-12 21:47:19,667 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:47:19,667 | INFO | __main__ | Chart data has loaded. There are 48187 rows and 30 columns.
+2026-10-12 21:47:20,014 | INFO | __main__ | Chart is saved to figures/traffic_by_hour.png.
+2026-10-12 21:47:20,194 | INFO | __main__ | Chart is saved to figures/weekday_weekend_traffic.png.
+2026-10-12 21:47:20,419 | INFO | __main__ | Chart is saved to figures/traffic_by_weather.png.
+2026-10-12 21:47:20,419 | INFO | __main__ | All three traffic charts have saved.
+2026-10-12 21:47:20,421 | INFO | __main__ | Traffic visualisation has completed successfully.
+2026-10-12 21:48:02,857 | INFO | __main__ | Traffic visualisation has started.
+2026-10-12 21:48:03,127 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 21:48:03,128 | INFO | __main__ | Chart data has loaded. There are 48187 rows and 30 columns.
+2026-10-12 21:48:03,443 | INFO | __main__ | Chart is saved to figures/traffic_by_hour.png.
+2026-10-12 21:48:03,631 | INFO | __main__ | Chart is saved to figures/weekday_weekend_traffic.png.
+2026-10-12 21:48:03,894 | INFO | __main__ | Chart is saved to figures/traffic_by_weather.png.
+2026-10-12 21:48:03,895 | INFO | __main__ | All three traffic charts have saved.
+2026-10-12 21:48:03,897 | INFO | __main__ | Traffic visualisation has completed successfully.
+2026-10-12 23:09:12,268 | INFO | __main__ | Traffic pipeline started.
+2026-10-12 23:09:12,395 | INFO | __main__ | Raw CSV has loaded succesfully. There are 48204 rows and 9 columns.
+2026-10-12 23:09:12,399 | INFO | __main__ | Column check has passed. All required columns are present.
+2026-10-12 23:09:12,454 | INFO | __main__ | holiday: no text changes are required.
+2026-10-12 23:09:12,495 | INFO | __main__ | weather_main: no text changes are required.
+2026-10-12 23:09:12,532 | WARNING | __main__ | weather_description: changed 1730 rows to fix spaces and capital letters.
+2026-10-12 23:09:12,576 | INFO | __main__ | Date check has passed. No missing or invalid dates.
+2026-10-12 23:09:12,576 | INFO | __main__ | date_time is now in datetime format.
+2026-10-12 23:09:12,588 | INFO | __main__ | temp: number conversion finished.
+2026-10-12 23:09:12,589 | INFO | __main__ | rain_1h: number conversion finished.
+2026-10-12 23:09:12,590 | INFO | __main__ | snow_1h: number conversion finished.
+2026-10-12 23:09:12,592 | INFO | __main__ | clouds_all: number conversion finished.
+2026-10-12 23:09:12,593 | INFO | __main__ | traffic_volume: number conversion finished.
+2026-10-12 23:09:12,616 | INFO | __main__ | holiday: no missing category values.
+2026-10-12 23:09:12,626 | INFO | __main__ | weather_main: no missing category values.
+2026-10-12 23:09:12,635 | INFO | __main__ | weather_description: no missing category values.
+2026-10-12 23:09:12,651 | INFO | __main__ | snow_1h: no missing or invalid numbers.
+2026-10-12 23:09:12,652 | INFO | __main__ | clouds_all: no missing or invalid numbers.
+2026-10-12 23:09:12,653 | INFO | __main__ | traffic_volume: no missing or invalid numbers.
+2026-10-12 23:09:12,748 | WARNING | __main__ | Dropped 17 rows because all their values were duplicates.
+2026-10-12 23:09:12,748 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-12 23:09:12,767 | WARNING | __main__ | Fixed 4 missing or invalid temperatures in month 1 using the monthly median.
+2026-10-12 23:09:12,772 | WARNING | __main__ | Fixed 6 missing or invalid temperatures in month 2 using the monthly median.
+2026-10-12 23:09:12,792 | WARNING | __main__ | Fixed 1 missing or invalid rainfall readings in month 7 using the monthly median.
+2026-10-12 23:09:12,870 | INFO | __main__ | Duplicate check finished. No exact duplicates found.
+2026-10-12 23:09:12,871 | INFO | __main__ | After removing duplicates, there are 48187 rows and 9 columns.
+2026-10-12 23:09:12,953 | INFO | __main__ | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-12 23:09:13,299 | INFO | __main__ | Cleaned data saved to data/traffic_cleaned.csv.
+2026-10-12 23:09:13,303 | INFO | __main__ | Traffic pipeline completed succesfully.
+2026-10-12 23:13:09,899 | INFO | __main__ | Feature engineering has started.
+2026-10-12 23:13:10,239 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-12 23:13:10,240 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-12 23:13:10,280 | INFO | __main__ | Time features and cyclical hour features were added.
+2026-10-12 23:13:10,345 | INFO | __main__ | Weather encoding, rain and snow features have been added.
+2026-10-12 23:13:10,370 | INFO | __main__ | temp scaled feature have bee added.
+2026-10-12 23:13:10,373 | INFO | __main__ | rain_1h scaled feature have bee added.
+2026-10-12 23:13:10,425 | INFO | __main__ | Data-driven traffic categories have been added.
+2026-10-12 23:13:10,478 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:13:11,681 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
+2026-10-12 23:13:11,684 | INFO | __main__ | Feature engineering has completed successfully.
+2026-10-12 23:15:52,169 | INFO | __main__ | Feature engineering has started.
+2026-10-12 23:15:52,345 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 9 columns.
+2026-10-12 23:15:52,345 | INFO | __main__ | Before feature engineering, there are 48187 rows and 9 columns.
+2026-10-12 23:15:52,360 | INFO | __main__ | Time features and cyclical hour features were added.
+2026-10-12 23:15:52,387 | INFO | __main__ | Weather encoding, rain and snow features have been added.
+2026-10-12 23:15:52,399 | DEBUG | __main__ | temp scaling minimum is 243.39 and maximum is 310.07.
+2026-10-12 23:15:52,401 | INFO | __main__ | temp scaled feature have bee added.
+2026-10-12 23:15:52,402 | DEBUG | __main__ | rain_1h scaling minimum is 0.0 and maximum is 55.63.
+2026-10-12 23:15:52,403 | INFO | __main__ | rain_1h scaled feature have bee added.
+2026-10-12 23:15:52,414 | DEBUG | __main__ | Traffic category thresholds are 1192.5 and 4933.0 vehicles.
+2026-10-12 23:15:52,421 | INFO | __main__ | Data-driven traffic categories have been added.
+2026-10-12 23:15:52,461 | INFO | __main__ | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:15:53,146 | INFO | __main__ | Feature data has saved to data/traffic_features.csv.
+2026-10-12 23:15:53,149 | INFO | __main__ | Feature engineering has completed successfully.
+2026-10-12 23:16:22,102 | INFO | __main__ | Traffic visualisation has started.
+2026-10-12 23:16:22,913 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:16:22,913 | INFO | __main__ | Chart data has loaded. There are 48187 rows and 30 columns.
+2026-10-12 23:16:24,562 | INFO | __main__ | Chart is saved to figures/traffic_by_hour.png.
+2026-10-12 23:16:24,992 | INFO | __main__ | Chart is saved to figures/weekday_weekend_traffic.png.
+2026-10-12 23:16:25,550 | INFO | __main__ | Chart is saved to figures/traffic_by_weather.png.
+2026-10-12 23:16:25,553 | INFO | __main__ | All three traffic charts have saved.
+2026-10-12 23:16:25,560 | INFO | __main__ | Traffic visualisation has completed successfully.
+2026-10-12 23:19:04,872 | INFO | __main__ | Application is invoked with arguments ['query', '--datetime', '2012-10-02 09:00:00'].
+2026-10-12 23:19:04,875 | INFO | __main__ | Command query is invoked with arguments {'debug': False, 'command': 'query', 'datetime': '2012-10-02 09:00:00'}.
+2026-10-12 23:19:05,080 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 23:19:05,212 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 23:19:05,244 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:19:05,245 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 23:19:05,261 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-12 23:19:33,771 | INFO | __main__ | Application is invoked with arguments ['high-traffic', '--threshold', '7000'].
+2026-10-12 23:19:33,773 | INFO | __main__ | Command high-traffic is invoked with arguments {'debug': False, 'command': 'high-traffic', 'threshold': 7000}.
+2026-10-12 23:19:34,007 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 23:19:34,178 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 23:19:34,221 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:19:34,221 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 23:19:34,235 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-12 23:20:04,733 | INFO | __main__ | Application is invoked with arguments ['compare-days'].
+2026-10-12 23:20:04,736 | INFO | __main__ | Command compare-days is invoked with arguments {'debug': False, 'command': 'compare-days'}.
+2026-10-12 23:20:05,012 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 23:20:05,169 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 23:20:05,207 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:20:05,207 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 23:20:05,220 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-12 23:20:38,632 | INFO | __main__ | Application is invoked with arguments ['query', '--datetime', 'not-a-date'].
+2026-10-12 23:20:38,634 | INFO | __main__ | Command query is invoked with arguments {'debug': False, 'command': 'query', 'datetime': 'not-a-date'}.
+2026-10-12 23:20:38,847 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 23:20:38,963 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 23:20:38,999 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:20:38,999 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 23:20:38,999 | ERROR | __main__ | Traffic application could not complete: Use a valid date and time in YYYY-MM-DD HH:MM:SS format..
+2026-10-12 23:20:59,886 | INFO | __main__ | Application is invoked with arguments ['high-traffic', '--threshold', '-1'].
+2026-10-12 23:20:59,888 | INFO | __main__ | Command high-traffic is invoked with arguments {'debug': False, 'command': 'high-traffic', 'threshold': -1}.
+2026-10-12 23:21:00,120 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 23:21:00,290 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 23:21:00,335 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:21:00,336 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 23:21:00,336 | ERROR | __main__ | Traffic application could not complete: The traffic threshold must be zero or greater..
+2026-10-12 23:21:18,592 | INFO | __main__ | Application is invoked with arguments ['query'].
+2026-10-12 23:21:18,595 | ERROR | __main__ | Traffic application could not complete: Invalid command arguments: the following arguments are required: --datetime..
+2026-10-12 23:21:51,640 | INFO | __main__ | Application is invoked with arguments ['query', '--datetime', 'not-a-date'].
+2026-10-12 23:21:51,642 | INFO | __main__ | Command query is invoked with arguments {'debug': False, 'command': 'query', 'datetime': 'not-a-date'}.
+2026-10-12 23:21:51,815 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 23:21:51,965 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 23:21:51,997 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:21:51,997 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 23:21:51,997 | ERROR | __main__ | Traffic application could not complete: Use a valid date and time in YYYY-MM-DD HH:MM:SS format..
+2026-10-12 23:21:53,261 | INFO | __main__ | Application is invoked with arguments ['high-traffic', '--threshold', '-1'].
+2026-10-12 23:21:53,262 | INFO | __main__ | Command high-traffic is invoked with arguments {'debug': False, 'command': 'high-traffic', 'threshold': -1}.
+2026-10-12 23:21:53,445 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 23:21:53,578 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 23:21:53,607 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:21:53,607 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 23:21:53,607 | ERROR | __main__ | Traffic application could not complete: The traffic threshold must be zero or greater..
+2026-10-12 23:21:54,887 | INFO | __main__ | Application is invoked with arguments ['query'].
+2026-10-12 23:21:54,888 | ERROR | __main__ | Traffic application could not complete: Invalid command arguments: the following arguments are required: --datetime..
+2026-10-12 23:22:28,945 | INFO | __main__ | Application is invoked with arguments ['query', '--datetime', '2000-01-01 00:00:00'].
+2026-10-12 23:22:28,946 | INFO | __main__ | Command query is invoked with arguments {'debug': False, 'command': 'query', 'datetime': '2000-01-01 00:00:00'}.
+2026-10-12 23:22:29,120 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 23:22:29,228 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 23:22:29,255 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:22:29,255 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 23:22:29,266 | INFO | __main__ | Traffic application command has completed successfully.
+2026-10-12 23:22:30,410 | INFO | __main__ | Application is invoked with arguments ['high-traffic', '--threshold', '7280'].
+2026-10-12 23:22:30,411 | INFO | __main__ | Command high-traffic is invoked with arguments {'debug': False, 'command': 'high-traffic', 'threshold': 7280}.
+2026-10-12 23:22:30,598 | INFO | pipeline | Column check has passed. All required columns are present.
+2026-10-12 23:22:30,728 | INFO | pipeline | Cleaned data checks completed. There are 48187 rows and 30 columns.
+2026-10-12 23:22:30,758 | INFO | feature_engineering | Feature checks have been  passed. After feature engineering, there are 48187 rows and 30 columns.
+2026-10-12 23:22:30,758 | INFO | __main__ | Application data has been loaded. There are 48187 rows and 30 columns.
+2026-10-12 23:22:30,766 | INFO | __main__ | Traffic application command has completed successfully.

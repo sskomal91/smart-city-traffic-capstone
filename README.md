@@ -19,38 +19,41 @@ Part 1 statistics use the original records. Part 2 results use cleaned records. 
 
 ```text
 smart-city-traffic-capstone/
-├── part1_data_analytics/
-│   ├── sql/
-│   ├── statistics/
-│   ├── powerbi/
-│   ├── Metro_Interstate_Traffic_Volume.csv
-│   ├── Part1DEliverablesExecutionOutput.docx
-│   ├── Data Analytics Insights Report.docx
-│   └── insights_report.pdf
-├── capstone_part2/
-│   ├── data/
-│   ├── charts/
-│   ├── pipeline.py
-│   ├── feature_engineering.py
-│   ├── visualizations.py
-│   ├── traffic_app.py
-│   ├── traffic_pipeline_development.ipynb
-│   ├── pipeline.log
-│   ├── Part2DeliverablesExecutionOutput.docx
-│   ├── Part2ShortReport.docx
-│   └── README.md
-├── capstone_part3/
-│   ├── notebooks/
-│   ├── models/
-│   ├── figures/
-│   ├── mlflow/
-│   ├── recommendation_system/
-│   ├── deployment/
-│   ├── results/
-│   ├── reports/
-│   ├── Part3DEliverablesExecutionOutput.docx
-│   └── README.md
-└── README.md
+|-- part1_data_analytics/
+|   |-- sql/
+|   |-- statistics/
+|   |-- powerbi/
+|   |-- Metro_Interstate_Traffic_Volume.csv
+|   |-- Part1DEliverablesExecutionOutput.docx
+|   |-- Data Analytics Insights Report.docx
+|   `-- insights_report.pdf
+|-- part2_python/
+|   |-- cli_app/traffic_app.py
+|   |-- data/
+|   |-- figures/
+|   |-- pipeline.py
+|   |-- feature_engineering.py
+|   |-- visualizations.py
+|   |-- traffic_pipeline_development.ipynb
+|   |-- pipeline.log
+|   |-- Part2DeliverablesExecutionOutput.docx
+|   |-- Part2ShortReport.docx
+|   `-- README.md
+|-- part3_machine_learning/
+|   |-- notebooks/
+|   |-- models/
+|   |-- figures/
+|   |-- mlflow/
+|   |-- deployment/
+|   |-- recommendation_system/
+|   |-- monitoring/
+|   |-- results/
+|   |-- reports/
+|   |-- responsible_ai_report.pdf
+|   |-- Part3DEliverablesExecutionOutput.docx
+|   `-- README.md
+|-- final_capstone_report.pdf
+`-- README.md
 ```
 
 Keep all three folders when downloading the project. Parts 2 and 3 use the raw CSV in the Part 1 folder. Part 3 also reuses cleaning functions from Part 2.
@@ -101,20 +104,20 @@ The Python pipeline checks the schema, cleans categorical and numeric values, ha
 
 ### Files and evidence
 
-The following paths are relative to `capstone_part2/`.
+The following paths are relative to `part2_python/`.
 
 | File or folder | Purpose |
 | --- | --- |
 | `pipeline.py` | Loading, validation, cleaning and monthly median imputation |
 | `feature_engineering.py` | Time, weather, scaled and traffic-category features |
 | `visualizations.py` | Three saved Matplotlib charts |
-| `traffic_app.py` | Date queries, high-traffic queries and weekday/weekend comparison |
+| `cli_app/traffic_app.py` | Date queries, high-traffic queries and weekday/weekend comparison |
 | `traffic_pipeline_development.ipynb` | Development workflow and saved outputs |
 | `data/` | Cleaned data and engineered features |
-| `charts/` | Saved traffic charts |
+| `figures/` | Saved traffic charts |
 | `pipeline.log` | Sample execution and validation messages |
 
-Read [the Part 2 README](capstone_part2/README.md), [short report](capstone_part2/Part2ShortReport.docx) and [execution output](capstone_part2/Part2DeliverablesExecutionOutput.docx).
+Read [the Part 2 README](part2_python/README.md), [short report](part2_python/Part2ShortReport.docx) and [execution output](part2_python/Part2DeliverablesExecutionOutput.docx).
 
 ### Findings and interpretation
 
@@ -137,7 +140,7 @@ The seven tasks cover supervised learning, clustering and association rules, a n
 
 ### Files and evidence
 
-The following paths are relative to `capstone_part3/`.
+The following paths are relative to `part3_machine_learning/`.
 
 | File or folder | Purpose |
 | --- | --- |
@@ -146,12 +149,14 @@ The following paths are relative to `capstone_part3/`.
 | `figures/` | Clustering, training and SHAP figures |
 | `mlflow/` | Tracking database and run artifacts |
 | `recommendation_system/` | Candidate-time ranking module and example inputs |
-| `deployment/` | FastAPI application, model manifest, monitoring reference and examples |
+| `deployment/` | FastAPI application, model manifest and request examples |
+| `monitoring/` | Feature mean monitoring module and training reference |
+| `responsible_ai_report.pdf` | PDF of the responsible and sustainable AI report |
 | `results/` | Model metrics, association rules, SHAP contributions, recommendations, group errors and validation checks |
 | `reports/` | Final Part 3 report and responsible AI report in Word and Markdown |
 | Task log files | Milestones, warnings and verification messages |
 
-Read [the Part 3 README](capstone_part3/README.md), [final Part 3 report](capstone_part3/reports/part3_final_capstone_report.docx), [responsible and sustainable AI report](capstone_part3/reports/responsible_sustainable_ai_report.docx) and [execution output](capstone_part3/Part3DEliverablesExecutionOutput.docx).
+Read [the Part 3 README](part3_machine_learning/README.md), [final Part 3 report](part3_machine_learning/reports/part3_final_capstone_report.docx), [responsible and sustainable AI report](part3_machine_learning/reports/responsible_sustainable_ai_report.docx) and [execution output](part3_machine_learning/Part3DEliverablesExecutionOutput.docx).
 
 ### Findings and interpretation
 
@@ -196,12 +201,14 @@ No real accident dataset was supplied or sourced. The proxy marks High or Severe
 
 ## Running the project
 
-Start with Part 1's analysis and raw data, then follow [the Part 2 run instructions](capstone_part2/README.md), followed by [the Part 3 run instructions](capstone_part3/README.md). Use the documented working directories. Rerunning workflows can replace generated data, models, figures and logs.
+Start with Part 1's analysis and raw data, then follow [the Part 2 run instructions](part2_python/README.md), followed by [the Part 3 run instructions](part3_machine_learning/README.md). Use the documented working directories. Rerunning workflows can replace generated data, models, figures and logs.
 
 The scripts and reusable modules use Python logging. Part 2 writes console messages and `pipeline.log`; Part 3 retains task-specific logs. INFO records normal milestones, WARNING records recoverable issues, ERROR records failures, and DEBUG records troubleshooting details when enabled.
 
 ## Report scope and project limitations
 
-The insights report covers Part 1, the short report covers Part 2, and the final Part 3 report covers all seven Part 3 tasks. A combined report covering all three parts and a PDF copy of the responsible AI report are planned additions after the project review; they are not currently included.
+The [combined final capstone report](final_capstone_report.pdf) brings together the methodology, findings and limitations from Parts 1, 2 and 3. It is available at the repository root.
+
+The insights report covers Part 1, the short report covers Part 2, and the final Part 3 report covers all seven Part 3 tasks. The [responsible AI PDF](part3_machine_learning/responsible_ai_report.pdf) is available in the Part 3 folder. The individual reports and execution evidence provide supporting detail for each part.
 
 This is a decision-support prototype using historical observations from one corridor. Data gaps, repeated timestamps, limited severe-weather coverage and the constructed accident-risk label restrict wider conclusions. Practical use would  require more representative data, validation across additional periods and roads, calibrated monitoring and human oversight.

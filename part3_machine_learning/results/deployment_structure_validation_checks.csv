@@ -1,0 +1,7 @@
+check,result,HTTP_status
+Renamed application health,PASS,200.0
+Prediction values and input order,PASS,200.0
+Cloud cover above 100 rejected,PASS,422.0
+Monitoring reference batch PASS,PASS,
+Temperature shift ALERT,PASS,
+Undersized monitoring batch rejected,PASS,
